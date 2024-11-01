@@ -1,0 +1,77 @@
+/**
+ * Un-Line-Break
+ */
+
+/* Settings page */
+
+.unlinebreak-group {
+	margin-top: 20px;
+	background: #FFF;
+	padding: 15px;
+	border: 1px solid #D4D4D4;
+}
+
+.leave-no-trace {
+	padding-top: 1px;
+	margin-bottom: 20px;
+}
+
+.unlinebreak-group-header h3 {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0;
+}
+
+.unlinebreak-group-header {
+	margin-bottom: 20px;
+}
+
+.unlinebreak-group .buttons {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.unlinebreak-group .buttons input[type="button"] {
+	margin-left: 10px;
+	vertical-align: middle;
+}
+
+.columned {
+	margin-left: 10px;
+
+	-moz-column-width: 16em;
+	-moz-columns: 16em;
+	-webkit-columns: 16em;
+	columns: 16em;
+
+	-moz-column-gap: 2em;
+	-webkit-column-gap: 2em;
+	column-gap: 2em;
+}
+
+.columned label {
+	display: block;
+	margin-bottom: 5px;
+}
+
+p.description {
+	font-size: 14px;
+	margin-left: 0.5em;
+	margin-top: 0.5em;
+}
+
+/* about page */
+
+.screenshot {
+	border: 1px solid #DDD;
+	box-shadow: 4px 4px 8px rgba(0,0,0,0.4);
+	margin: 20px;
+}
+.good {
+	border: 1px solid rgba(120,202,32,0.8);
+	box-shadow: 4px 4px 8px rgba(120,202,32,0.8);
+}
+.bad {
+	border: 1px solid rgba(204,0,0,0.4);
+	box-shadow: 4px 4px 8px rgba(204,0,0,0.4);
+}
